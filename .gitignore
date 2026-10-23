@@ -1,0 +1,74 @@
+# =========================
+# Dependências e Pacotes
+# =========================
+node_modules/
+jspm_packages/
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Builds e Saídas de Compilação
+# =========================
+dist/
+build/
+out/
+target/
+*.egg-info/
+.eggs/
+
+# =========================
+# Arquivos de Ambiente e Credenciais
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.json
+config.json
+
+# =========================
+# Arquivos do Sistema Operacional
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+*~
+
+# =========================
+# Editores e IDEs (VS Code, JetBrains, etc.)
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Logs e Bancos de Dados Locais
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.sqlite
+*.db
